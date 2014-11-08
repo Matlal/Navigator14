@@ -17,6 +17,12 @@ import com.google.android.gms.maps.model.Polyline;
 import java.io.IOException;
 import java.util.List;
 
+/*
+    PLACEHOLDER
+    Denna klassen är mainklassen, och här är det tänkt att bla bla.
+    hello
+
+ */
 public class MapsActivity extends FragmentActivity {
    public ListView list;
     private GoogleMap mMap;
@@ -53,7 +59,9 @@ public class MapsActivity extends FragmentActivity {
 
     }
 
-
+    protected void removeme(){
+        System.out.print("gittest.");
+    }
 
     @Override
     protected void onResume() {
