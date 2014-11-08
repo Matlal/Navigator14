@@ -23,7 +23,7 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value= "AIzaSyCGEV8NGfF2Xlmkpyog72lWh89nqWSM-t4" />
 
         <activity
             android:name="se.ltu.student.navigator.navigator14.MapsActivity"
