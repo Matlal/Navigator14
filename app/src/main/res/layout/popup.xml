@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:text="Tryck OK för att visa ruttinformation"/>
+    <!--
+
+    //Togggleknappen, "påbörja saning, avsluta sandning" whatever daaat means.
+    <ToggleButton
+        android:id="@+id/log_toggle"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:textOff="Påbörja Sandning"
+        android:textOn="Avsluta sanding"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+      -->
+
+
+</RelativeLayout>
