@@ -8,7 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 /**
- * Created by root on 2014-09-15.
+ * ArrayAdapteritem Class
+ *
  */
 public class ArrayAdapterItem extends ArrayAdapter<ObjectItem> {
 

@@ -12,7 +12,9 @@ import android.widget.AdapterView;
 import android.widget.TextView;
 
 /**
- * Created by Navigator on 2014-09-22.
+ * Alert class
+ * this is the pop-up when you press a object in the list.
+ *
  */
 
 public class Alert extends DialogFragment {

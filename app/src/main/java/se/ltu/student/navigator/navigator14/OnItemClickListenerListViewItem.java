@@ -12,7 +12,8 @@ import android.widget.Toast;
 
 
 /**
- * Created by root on 2014-09-15.
+ * OnItemClickListenerListViewItem class
+ *
  */
  // Here you can control what to do next when the user selects an item
  public class OnItemClickListenerListViewItem implements OnItemClickListener{
@@ -32,12 +33,10 @@ import android.widget.Toast;
         ObjectItem listItem = (ObjectItem) textViewItem.getTag();
         int listItemIdInt = textViewItem.getId();
 
-        // get selected: Modifiera listan så att om den selected = true så ska den ha en ikryssad ruta eller dylikt.
-
         // do what you want with the object, for now: toast
-       Toast.makeText(context, "Item: " + listItemText + ", Item ID: " + listItem.itemName.toString(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "Item: " + listItem.itemId + ", Item ID: " + listItem.itemName.toString(), Toast.LENGTH_SHORT).show();
 
-        //((MapsActivity) context).alertDialogStores.cancel();
+
 
 
         //Bygger ALERTPOPUP,
